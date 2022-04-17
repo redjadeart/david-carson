@@ -1,0 +1,118 @@
+#section-works #headline {
+    background-color: transparent;
+    color: white;
+    padding-top: 29px;
+    padding-left: 6%;
+    padding-bottom: 10px;
+}
+
+
+#section-works #carousel {
+    padding-left: 12%;
+    padding-right: 12%;
+    position: relative;
+    background-color: transparent;
+    height: 32vw;
+}
+
+
+
+#section-works .carousel-main,
+#section-works .carousel-prev,
+#section-works .carousel-next,
+#section-works .carousel-hidden-left,
+#section-works .carousel-hidden-right {
+    transition: 0.5s;
+}
+
+#section-works .carousel-main {
+    position: relative;
+    height: 30vw;
+    top: 0%;
+    left: 33.5%;
+    z-index: 3;
+    opacity: 100%
+}
+
+#section-works .carousel-prev,
+#section-works .carousel-next,
+#section-works .carousel-hidden-left,
+#section-works .carousel-hidden-right {
+    position: absolute;
+    height: 22vw;
+    top: 14%;
+    filter: blur(10px);
+}
+
+#section-works .carousel-prev,
+#section-works .carousel-next {
+    z-index: 2;
+    opacity: 100%
+}
+
+#section-works .carousel-hidden-left,
+#section-works .carousel-hidden-right {
+    z-index: 1;
+    opacity: 0%;
+}
+
+#section-works .carousel-prev,
+#section-works .carousel-hidden-left {
+    left: 24%;
+}
+
+#section-works .carousel-next,
+#section-works .carousel-hidden-right {
+    left: 59%;
+}
+
+#section-works #left-arrow,
+#section-works #right-arrow {
+    position: absolute;
+    width: 7%;
+    top: 39%;
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+#section-works #left-arrow img,
+#section-works #right-arrow img {
+    width: 100%;
+}
+
+#section-works #left-arrow {
+    left: 19%;
+}
+
+#section-works #right-arrow {
+    right: 19%;
+}
+
+
+#section-works #carousel-nav {
+    background-color: forestgreen;
+}
+
+
+#section-works #carousel-nav ul li {
+    list-style: none;
+}
+
+
+#section-works #carousel-nav ul li {
+    display: inline-block;
+    padding-left: 7%;
+}
+
+
+#section-works ul a {
+    font-weight: 500;
+    color: #B3B3B3;
+    text-decoration: none;
+}
+
+#section-works ul a:hover {
+    color: white;
+}

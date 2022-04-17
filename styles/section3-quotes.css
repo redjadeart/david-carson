@@ -1,0 +1,128 @@
+#section-quotes {
+    height: 1080px;
+    /* border: yellow 2px solid;*/
+    z-index: 10;
+}
+
+#section-quotes #luci {
+    position: absolute;
+    width: 1200px;
+    height: 800px;
+    left: 360px;
+    top: 2278px;
+    z-index: 1;
+
+}
+
+#section-quotes #quotes-left-grey {
+    position: absolute;
+    width: 922px;
+    height: 140px;
+    left: 239px;
+    top: 3200px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #4F4F4F;
+
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    z-index: 2;
+}
+
+#section-quotes #quotes-right-black {
+    position: absolute;
+    width: 913px;
+    height: 122px;
+    left: 1849px;
+    top: 2532px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 30px;
+    color: #000000;
+    transform: rotate(-180deg);
+    transform-origin: top left;
+    z-index: 3;
+}
+
+#section-quotes #quotes-left-black-top {
+    position: absolute;
+    width: 1470px;
+    height: 272px;
+    left: 20px;
+    top: 2280px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 84px;
+    letter-spacing: 0.15em;
+
+    color: #000000;
+    z-index: 4;
+}
+
+#section-quotes #quotes-right-big-grey {
+    position: absolute;
+    width: 900px;
+    height: 220px;
+    left: 998px;
+    top: 2320px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 169px;
+
+    color: #B3B3B3;
+    z-index: 5;
+
+}
+
+#section-quotes #quotes-right-middle-grey {
+    position: absolute;
+    width: 714px;
+    height: 618px;
+    left: 1095px;
+    top: 2855px;
+
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 60px;
+    /* or 94% */
+
+
+    color: #B3B3B3;
+    transform-origin: top left;
+    z-index: 6;
+}
+
+#section-quotes #quotes-left-big-white {
+    position: absolute;
+    width: 927px;
+    height: 514px;
+    left: 88px;
+    top: 2650px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 130px;
+    /* or 135% */
+
+
+    color: #FFFFFF;
+    transform-origin: top left;
+    z-index: 7;
+}

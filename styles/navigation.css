@@ -1,0 +1,50 @@
+#nav-placeholder {
+    height: 126px;
+}
+
+#nav {
+    background-color: #2D2D2D;
+    height: 126px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+#nav .nav-inner {
+    height: 100%;
+    padding-left: 6%;
+    padding-right: 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nav li {
+    list-style: none;
+}
+
+
+#nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+#nav .left {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 59px;
+}
+
+#nav .right {
+    width: 70%;
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+#nav .right li {
+    display: inline-block;
+    padding-left: 3.5%;
+}

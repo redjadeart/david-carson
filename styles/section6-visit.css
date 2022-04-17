@@ -1,0 +1,75 @@
+#section-visit {
+    background-color: #2D2D2D;
+}
+
+#section-visit .headlines {
+    color: white;
+    padding-top: 29px;
+    padding-left: 6%;
+    padding-bottom: 10px;
+}
+
+#section-visit .columns {
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 2rem;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#section-visit .lower-footer {
+    background: linear-gradient(180deg, #EDEDED 25.48%,
+            rgba(255, 255, 255, 0) 100%);
+}
+
+#section-visit .logos {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px black;
+}
+
+#section-visit .logos img,
+#section-visit .logos h3 {
+    height: 35px;
+    padding-right: 6%;
+}
+
+#section-visit .contacts {
+
+    background: linear-gradient(180deg, #EDEDED 25.48%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 6%;
+    padding-right: 6%;
+    /* padding-top: 15px; */
+    /* padding-bottom: 17.5px; */
+}
+
+#section-visit .contacts .col1 {
+
+    width: 35%;
+}
+
+
+input {
+    color: black;
+    height: 24px;
+}
+
+#section-visit .contacts .col2 {
+
+    width: 15%;
+    padding-top: 15px;
+
+}
+
+
+#section-visit .contacts .col3 {
+
+    width: 30%;
+}

@@ -1,0 +1,264 @@
+/*-- section 2 About--*/
+#section-about {
+    height: 1080px;
+
+    /*-- todo: delete me--*/
+    /*border: yellow 2px solid;*/
+}
+
+#section-about h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 29px;
+
+}
+
+#section-about h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    margin-left: 100px;
+}
+
+#section-about #carson1 {
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    left: 0px;
+    top: 1189px;
+    z-index: 3;
+
+}
+
+#section-about #carson2 {
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    left: 575px;
+    top: 1171px;
+    z-index: 3;
+
+}
+
+#section-about #carson3 {
+
+    position: absolute;
+    width: 600px;
+    height: 800px;
+    left: 1290px;
+    top: 1301px;
+    z-index: 3;
+
+}
+
+#section-about #sociology-teacher h4 {
+    position: absolute;
+    width: 440px;
+    height: 491px;
+    left: 135px;
+    top: 1565px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+    text-decoration-line: line-through;
+
+    color: #FFFFFF;
+    z-index: 5;
+}
+
+#section-about #destiny h4 {
+    position: absolute;
+    width: 552px;
+    height: 501px;
+    left: 833px;
+    top: 1968px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+
+    color: #FFFFFF;
+    z-index: 5;
+}
+
+#section-about #decision h4 {
+    position: absolute;
+    width: 552px;
+    height: 501px;
+    left: 1250px;
+    top: 1703px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 112px;
+
+    color: #FFFFFF;
+    z-index: 5;
+
+}
+
+#section-about .white-middle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+
+    color: #FFFFFF;
+
+}
+
+#section-about #about-white-1 {
+    position: absolute;
+    width: 281px;
+    height: 170px;
+    left: 135px;
+    top: 1901px;
+    z-index: 4;
+}
+
+#section-about #about-white-2 {
+    position: absolute;
+    width: 594px;
+    height: 446px;
+    left: 575px;
+    top: 1658px;
+    z-index: 4;
+}
+
+#section-about #about-white-3 {
+    position: absolute;
+    width: 530px;
+    height: 365px;
+    left: 1290px;
+    top: 1246px;
+    z-index: 4;
+
+}
+
+#section-about .grey-small {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #4F4F4F;
+}
+
+#section-about .black-small {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+
+}
+
+#section-about #about-grey-1 {
+    position: absolute;
+    width: 526px;
+    height: 77px;
+    left: 420px;
+    top: 1968px;
+
+
+
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    z-index: 2;
+}
+
+#section-about #about-grey-2 {
+    position: absolute;
+    width: 170px;
+    height: 151px;
+    left: 1137px;
+    top: 1696px;
+    z-index: 2;
+
+
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+#section-about #about-grey-3 {
+
+    position: absolute;
+    width: 341px;
+    height: 239px;
+    left: 1590px;
+    top: 1851px;
+    z-index: 2;
+
+
+
+    transform: rotate(-180deg);
+    transform-origin: top left;
+
+}
+
+#section-about #about-black-1 {
+    position: absolute;
+    width: 417px;
+    height: 41px;
+    left: 492px;
+    top: 2009px;
+
+
+    transform: rotate(-180deg);
+    transform-origin: top left;
+    z-index: 1;
+
+}
+
+#section-about #about-black-2 {
+    position: absolute;
+    width: 586px;
+    height: 450px;
+    left: 640px;
+    top: 2057px;
+    z-index: 1;
+
+
+
+    transform: rotate(-90deg);
+    transform-origin: top left;
+
+}
+
+#section-about #about-black-3 {
+
+    position: absolute;
+    width: 510px;
+    height: 230px;
+    left: 1280px;
+    top: 2011px;
+    z-index: 1;
+
+
+
+    transform: rotate(-90deg);
+    transform-origin: top left;
+
+}

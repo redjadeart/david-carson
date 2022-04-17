@@ -1,0 +1,224 @@
+/* section 1 David Carson */
+#section-david {
+    position: relative;
+    height: 1080px;
+    background: linear-gradient(180deg, #FFFFFF 9.91%, rgba(191, 191, 191, 0.69463) 79.2%, rgba(153, 153, 153, 0.512206) 90.58%, #2D2D2D 100%);
+}
+
+#section-david p {
+
+    position: absolute;
+}
+
+#section-david #big-portrait {
+    text-align: center;
+
+}
+
+#section-david #big-portrait img {
+    height: 1080px;
+}
+
+#section-david #typo-david {
+
+
+
+    position: absolute;
+    width: 741px;
+    height: 209px;
+    left: 229px;
+    top: 151px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 288px;
+    line-height: 230px;
+
+
+
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+#section-david #typo-carson {
+    /* Carson */
+
+
+    position: absolute;
+    width: 477px;
+    height: 164px;
+    left: 1213px;
+    top: 725px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 144px;
+    line-height: 230px;
+    /* or 160% */
+
+
+    color: #FFFFFF;
+    z-index: 4;
+}
+
+#section-david #typo-surfer {
+    /* and surfer. */
+
+
+    position: absolute;
+    width: 551px;
+    height: 75px;
+    left: 1350px;
+    top: 852px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.35em;
+    font-feature-settings: 'liga'off;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    z-index: 3;
+}
+
+#section-david #typo-graphic-designer {
+    /* a graphic designer, */
+
+
+    position: absolute;
+    width: 1033px;
+    height: 84px;
+    left: 225px;
+    top: 738px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 75px;
+    display: flex;
+    align-items: flex-end;
+    font-feature-settings: 'liga'off;
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    z-index: 5;
+}
+
+#section-david #typo-art-director {
+    /* art director */
+
+
+    position: absolute;
+    width: 1720px;
+    height: 84px;
+    left: 100px;
+    top: 932px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.8em;
+    font-feature-settings: 'liga'off;
+
+    color: #FFFFFF;
+
+    mix-blend-mode: normal;
+    z-index: 9;
+}
+
+
+#section-david #typo-left1 {
+    position: absolute;
+    width: 1005px;
+    height: 110px;
+    left: 100px;
+    top: 1070px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+
+    color: #4F4F4F;
+
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    z-index: 7;
+}
+
+
+#section-david #typo-left2 {
+    position: absolute;
+    width: 712px;
+    height: 173px;
+    left: 810px;
+    top: 963px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #B3B3B3;
+
+    transform: rotate(-180deg);
+    transform-origin: top left;
+    z-index: 1;
+}
+
+
+#section-david #typo-right1 {
+    position: absolute;
+    width: 600px;
+    height: 183px;
+    left: 1885px;
+    top: 690px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+
+    transform: rotate(-180deg);
+    transform-origin: top left;
+    z-index: 6;
+}
+
+#section-david #typo-right2 {
+    position: absolute;
+    width: 470px;
+    height: 109px;
+    left: 1722px;
+    top: 1070px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #000000;
+
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    z-index: 8;
+}
