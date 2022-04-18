@@ -3,7 +3,6 @@
     width: 100%;
     height: 56.25vw;
     position: relative;
-    background-color: #2D2D2D;
 }
 
 #section-about #headline {
@@ -38,7 +37,7 @@
 
     position: absolute;
     width: 32%;
-    left: 65%;
+    left: 63%;
     top: 15%;
     z-index: 3;
 
@@ -145,7 +144,7 @@
 
     position: absolute;
     width: 15%;
-    left: 88%;
+    left: 92%;
     top: 35em;
     z-index: 2;
 
@@ -156,9 +155,6 @@
 
 }
 
-
-
-
 #section-about .grey-small {
     font-family: Roboto;
     font-style: normal;
@@ -167,10 +163,6 @@
     line-height: 1em;
     color: #4F4F4F;
 }
-
-
-
-
 
 #section-about .white-middle {
     font-family: Roboto;
@@ -181,13 +173,6 @@
     font-size: 1.4em;
     line-height: 1.2em;
 }
-
-
-
-
-
-
-
 
 #section-about .black-small {
     font-family: Roboto;
@@ -200,9 +185,6 @@
 
 
 }
-
-
-
 
 #section-about #about-black-1 {
     position: absolute;
