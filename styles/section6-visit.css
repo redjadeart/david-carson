@@ -52,10 +52,15 @@
     width: 35%;
 }
 
+#section-visit .contacts .col1 input.youremail {
+    color: grey;
+    background-color: white;
+}
 
-input {
-    color: black;
-    height: 24px;
+#section-visit .contacts .col1 input.subscribe {
+    background-color: black;
+    font-weight: 700;
+    color: white;
 }
 
 #section-visit .contacts .col2 {
