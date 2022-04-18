@@ -40,6 +40,8 @@
     padding-right: 6%;
 }
 
+
+
 #logo1 {
     /* border: 5px solid yellow; */
     padding-right: 2%;
@@ -67,6 +69,7 @@
 
 #section-visit .contacts .col1 {
     width: 35%;
+
 }
 
 #section-visit .contacts .col1 input.youremail {
@@ -86,9 +89,10 @@
 }
 
 #section-visit .contacts .col2 {
-    width: 15%;
-    padding-top: 15px;
+    width: 20%;
+    padding-top: 2em;
     line-height: 1.5em;
+
 }
 
 #section-visit .contacts .col2 img {
@@ -98,6 +102,7 @@
 
 #section-visit .contacts .col3 {
     width: 30%;
+    padding-top: 2em;
 }
 
 /* links */
@@ -117,4 +122,60 @@
 
 #learnmore a:hover {
     color: gray;
+}
+
+#facebook a {
+    text-decoration: none;
+    color: black;
+}
+
+#facebook a:hover {
+    color: gray;
+}
+
+#ig a {
+    text-decoration: none;
+    color: black;
+}
+
+#ig a:hover {
+    color: gray;
+}
+
+
+
+#twitter a {
+    text-decoration: none;
+    color: black;
+}
+
+#twitter a:hover {
+    color: gray;
+}
+
+#youtube a {
+    text-decoration: none;
+    color: black;
+}
+
+#youtube a:hover {
+    color: gray;
+}
+
+#email a {
+    text-decoration: none;
+    color: black;
+}
+
+#email a:hover {
+    text-decoration: underline;
+}
+
+#Impressum h3 a {
+    text-decoration: none;
+    color: black;
+}
+
+#Impressum h3 a:hover {
+    text-decoration: underline;
 }

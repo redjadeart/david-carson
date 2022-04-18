@@ -427,7 +427,8 @@
                 <p>Individual Guided Tours</p>
                 <br>
 
-                <p id="learnmore"><a href=https://www.mkg-hamburg.de/de/besuch/aktuelle-hinweise.html>Learn more</a></p>
+                <p id="learnmore"><a href=https://www.mkg-hamburg.de/de/besuch/aktuelle-hinweise.html>Learn more ...</a>
+                </p>
 
 
             </div>
@@ -452,39 +453,57 @@
 
                     <h3>Receive the MKG hamburg Newsletter</h3>
 
-                    <input class="youremail" type="text" name="Email Address" value="Your Email Address"><input
-                        class="subscribe" type="submit" value="Subscribe">
+                    <form action="http://localhost:3008/user" method="POST" name="post提交" target="targetIfr">
+                        <input class="youremail" type="text" name="Email Address" value="Your Email Address"><input
+                            class="subscribe" type="submit" value="Subscribe">
+                    </form>
+                    <iframe name="targetIfr" style="display:none"></iframe>
+
                 </div>
 
 
 
                 <div class="col col2">
-                    <div>
-                        <img src="img/social-facebook.png">
-                        Facebook
+                    <div id="facebook">
+                        <a href="https://www.facebook.com/mkghamburg/
+                      ">
+                            <img src="img/social-facebook.png">
+                            Facebook
+                        </a>
                     </div>
 
-                    <div>
-                        <img src="img/social-ig.png">
-                        Instagram
+                    <div id="ig">
+                        <a href="https://www.instagram.com/mkghamburg/
+                       ">
+                            <img src="img/social-ig.png">
+                            Instagram
+                        </a>
                     </div>
 
-                    <div>
-                        <img src="img/social-twitter.png">
-                        Twitter
+                    <div id="twitter">
+                        <a href="https://twitter.com/mkghamburg">
+                            <img src="img/social-twitter.png">
+                            Twitter
+                        </a>
                     </div>
 
-                    <div>
-                        <img src="img/social-youtube.png">
-                        Youtube
+                    <div id="youtube">
+                        <a href="https://www.youtube.com/user/MKGHamburg">
+                            <img src="img/social-youtube.png">
+                            Youtube
+                        </a>
                     </div>
+
+
 
 
                 </div>
 
 
                 <div class="col col3">
-                    <h3> Impressum</h3>
+                    <div id="Impressum">
+                        <h3><a href="https://www.mkg-hamburg.de/de/impressum.html">Impressum</a></h3>
+                    </div>
                     Museum für Kunst und Gewerbe Hamburg
                     Steintorplatz
                     20099 Hamburg
@@ -492,7 +511,10 @@
                     T.: +49 (0)40 428134-880
                     F.: +49 (0)40 428134-999
                     <br>
-                    service@mkg-hamburg.de
+                    <div id="email"> <a href="mailto:service@mkg-hamburg.de">
+                            service@mkg-hamburg.de </a></div>
+
+
                 </div>
             </div>
         </div>
