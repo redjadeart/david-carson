@@ -6,7 +6,7 @@
     color: white;
     padding-top: 29px;
     padding-left: 6%;
-    padding-bottom: 10px;
+    padding-bottom: 2em;
 }
 
 #section-visit .columns {
@@ -14,8 +14,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     column-gap: 2rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 19%;
+    padding-right: 19%;
+    padding-bottom: 3em;
 }
 
 #section-visit .lower-footer {
@@ -73,7 +74,6 @@
     width: 1.2em;
     vertical-align: text-bottom;
 }
-
 
 #section-visit .contacts .col3 {
     width: 30%;
