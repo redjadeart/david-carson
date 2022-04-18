@@ -18,6 +18,10 @@
     height: 56.25vw;
 }
 
+#section-david img {
+    width: 100%;
+}
+
 #section-david #typo-david {
     position: absolute;
     width: 741px;
