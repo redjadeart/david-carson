@@ -7,11 +7,3 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #2D2D2D;
 }
-
-/* TODO delete me */
-
-
-#section-david,
-#section-about {
-    display: none;
-}
