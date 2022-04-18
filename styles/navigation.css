@@ -34,8 +34,8 @@
 }
 
 #nav ul li a:hover {
-    color: pink;
-    text-decoration: underline;
+    color: gray;
+    text-decoration: none;
 }
 
 #nav .left {
