@@ -19,6 +19,7 @@
 }
 
 #section-visit .lower-footer {
+    padding-bottom: 3.5em;
     background: linear-gradient(180deg, #EDEDED 25.48%,
             rgba(255, 255, 255, 0) 100%);
 }
@@ -39,19 +40,15 @@
 }
 
 #section-visit .contacts {
-
     background: linear-gradient(180deg, #EDEDED 25.48%, rgba(255, 255, 255, 0) 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 6%;
     padding-right: 6%;
-    /* padding-top: 15px; */
-    /* padding-bottom: 17.5px; */
 }
 
 #section-visit .contacts .col1 {
-
     width: 35%;
 }
 
@@ -62,14 +59,17 @@ input {
 }
 
 #section-visit .contacts .col2 {
-
     width: 15%;
     padding-top: 15px;
+    line-height: 1.5em;
+}
 
+#section-visit .contacts .col2 img {
+    width: 1.2em;
+    vertical-align: text-bottom;
 }
 
 
 #section-visit .contacts .col3 {
-
     width: 30%;
 }
