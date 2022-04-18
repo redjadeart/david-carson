@@ -1,3 +1,7 @@
+#section-works {
+    padding-bottom: 3em;
+}
+
 #section-works #headline {
     background-color: transparent;
     color: white;
@@ -92,9 +96,16 @@
 
 
 #section-works #carousel-nav {
-    background-color: forestgreen;
+    padding-left: 24%;
+    padding-right: 24%;
 }
 
+
+#section-works #carousel-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 #section-works #carousel-nav ul li {
     list-style: none;
@@ -102,13 +113,14 @@
 
 
 #section-works #carousel-nav ul li {
-    display: inline-block;
-    padding-left: 7%;
+    padding-left: 0.55em;
+    padding-right: 0.55em;
 }
 
 
 #section-works ul a {
     font-weight: 500;
+    font-size: 0.9em;
     color: #B3B3B3;
     text-decoration: none;
 }
